@@ -22,10 +22,8 @@ ventaRow.innerHTML += `
               />
               <div class="card-body">
                 <h5 class="card-title">${venta.nombre}</h5>
-                <pclass="card-text">${venta.descripcion}"</pclass=>
-                <p>
-                  <i class="fas fa-map-marker-alt"></i>${venta.ubicacion}
-                </p>
+                <p class="card-text">${venta.descripcion}></p>
+                <i class="fas fa-map-marker-alt"></i>${venta.ubicacion}
                 <p>
                   <i class="fas fa-bed"></i>${venta.habitaciones}
                   <i class="fas fa-bath"></i>${venta.banios}
@@ -47,7 +45,7 @@ ventaRow.innerHTML += `
 // 1. Creo las variables identificando los elementos del dom
 
 
-const arriendoDiv = document.querySelector("#arriendo")
+const arriendoDiv = document.querySelector("#alquiler")
 const arriendoRow = document.querySelector(".row")
 
 
@@ -61,14 +59,10 @@ ventaRow.innerHTML += `
 <div class="row">
           <div class="col-md-4 mb-4">
             <div class="card">
-              <img
-                src="${arriendo.src}"
-                class="card-img-top"
-                alt="Imagen del departamento"
-              />
+              <img src="${arriendo.src}" class="card-img-top" alt="Imagen del departamento" />
               <div class="card-body">
-                <h5 class="card-title">${arriendo.nombre}</h5>
-                <pclass="card-text">${arriendo.descripcion}"</pclass=>
+                <h5 class="card-title">${arriendo.nombre}></h5>
+                <p class="card-text">${arriendo.descripcion}</p>
                 <p>
                   <i class="fas fa-map-marker-alt"></i>${arriendo.ubicacion}
                 </p>

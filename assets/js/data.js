@@ -1,10 +1,10 @@
-//Archivo con la data, extraida de chat gpt con el ejemplo de objeto que hay en la guia
+//Archivo con la data, extraido de chat gpt con el ejemplo de objeto que hay en la guia
 
 
-const propiedades_alquiler = [
+const propiedades_arriendo = [
     {
       nombre: 'Departamento moderno en Providencia',
-      src: 'https://example.com/imagenes/providencia1.jpg',
+      src: "https://example.com/imagenes/providencia1.jpg",
       descripcion: 'Departamento de 2 dormitorios con cocina americana, excelente conectividad y vista a la ciudad.',
       ubicacion: 'Providencia, Santiago',
       habitaciones: 2,
@@ -35,7 +35,9 @@ const propiedades_alquiler = [
       smoke: false,
       pets: false
     }
-  ];
+  ]
+  
+  ;
 
   const propiedades_venta = [
 
